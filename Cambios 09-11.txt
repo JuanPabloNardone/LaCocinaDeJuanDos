@@ -1,0 +1,8 @@
+LA COCINA DE JUAN
+
+En todas: Agregar Deistribución responsive
+
+Mejorar Sucursales
+Mejorar Nuestros clientes
+Agregar página "Recetas destacadas del mes" (carrousel)
+Agregar subpáginas con 3 recetas más, del mismo estilo de página

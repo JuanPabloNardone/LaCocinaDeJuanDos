@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/cf1a0b0945.js" crossorigin="anonymous"></script>
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>La cocina de Juan</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="index.html" class="navbar-brand" href="index.html"><i class="fas fa-hamburger"></i></a>
+            <!-- Menú hamburguesa -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recetas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="canelones.html">Canelones</a>
+                            <a class="dropdown-item" href="guisoarroz.html">Guiso de arroz</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Flan casero</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" id="destacadas" href="recetasdestacadas.html">Recetas Destacadas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">Clientes<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registro.html">Registro y contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="titulo">
+            <h1>La cocina de Juan</h1>
+            <hr data-content="Cocina nacional e internacional" class="hr-text">
+        </div>
+        <div class="breadcrumb-adaptado">
+            <a href="index.html">Inicio</a> /
+            <a href="recetasdestacadas.html">Recetas</a>
+            / Guiso de arroz
+        </div>
+    </header>
+    <menu class="menu">
+        <h2>Guiso de arroz</h2>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <p> Un guiso es la cocción en un medio semigraso de un o varios alimento. Consiste en preparar los alimentos haciéndolos cocer en una salsa, después de rehogados.1​ A diferencia del estofado, permite el reflujo de los vapores durante el proceso de elaboración culinaria.​ El guiso es un proceso culinario que permite recurrir a una gran variedad de ingredientes. Por regla general suelen emplearse los alimentos disponibles en la región, en la temporada o los que son del gusto del cocinero que lo prepara. Si bien el costo de elaboración varía de país a país, se lo considera una preparación económica que no necesita de muchos ingredientes.</p>
+                <div class="contenedor-imagen">
+                    <img class="imagen-receta" src="img/guiso-de-arroz.jpg" alt="Guiso de arroz">
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h4>Ingredientes</h4>
+                <div class="tabla">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th class="encabezado-tabla">Ingredentes</th>
+                                <th class="encabezado-tabla">Cantidades</th>
+                            </tr>
+                            <tr>
+                                <td>Arroz</td>
+                                <td>1 Taza y media</td>
+                            </tr>
+                            <tr>
+                                <td>Cebollas medianas</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Morrón</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Zanahorias</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Puré de tomate</td>
+                                <td>c/n</td>
+                            </tr>
+                            <tr>
+                                <td>Condimentos: oregano, pimienta, sal, pimentón, aji molido</td>
+                                <td>a gusto</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h4>Preparación</h4>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>1</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p><b>Lentejas:</b> al igual que otras legumbres (ej. porotos), es ideal dejarlas reposar en agua desde la noche anterior. Si te olvidaste, o decidiste incluirlos recién en el guiso (como yo), hay que hervirlas por mucho tiempo para que queden tiernitas. Así que antes de hacer nada, las tenes que poner con abundate agua y dejar hirviendo a fuego bajo (1 hora y media aprox.)Pd: si los dejaste en remojo, los vas a notar mas infladitos y los vas a tener que hervir menos, porque se ponen tiernitos más rápido.</p>
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>2</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Pelar las zanahorias, y cortarlas a gusto. Y luego hervir hasta que esten tiernitas (20-30 min apróx.)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>3</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Cortar y picas las cebollas. En una olla con material antiadherente (essen, teflón, etc) poner aceite, esperar que se caliente y volcar la cebolla. Condimentar con oregano, pimienta, pimenton, sal y aji molido. (Vamos a condimentar en cada paso, para que cada cosa se impregne bien de los sabores).</p>
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>4</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Mientras hierve la zanahoria y las lentejas y, se frie la cebolla, vamos a cortar y picar un morrón rojo (podes poner el que más te guste, si tenes verde mejor, para darle otro color). Y agregarlo a las cebollas. Volver a condimentar con oregano, pimienta y sal (siempre un poquito, pero en cada paso). </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>5</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Tip importante! Una vez que las zanahorias enten tiernitas, las vamos a colar y agregar a la mezcla, junto con las cebollas y los morrones. Y vamos a volver a condimentar. Esto va a hacer que las zanahorias no queden tan dulces y no predomine unicamente su sabor en el guiso, ya que va a impregnarse de los sabores durante el rehogado. La idea es que uno se de cuenta que tiene zanahorias pero que no opaque los sabores de todo lo demás.</p>                
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>6</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Paso opcional: si queres, como yo, acá le podes agregar 150-200 gr de carne picada. La deshaces en la misma mezcla, hasta asegurarte que está bien cocida. (Importante, lavar todo utencillo que tocó la carne cruda, para no contaminar la comida en pasos siguientes</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>7</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Una vez que todo está dorado. Hay que agregar el puré de tomate (con un solo cartón de 500 gr está bien). Volves a condimentar con oregano, aji molido, pimenton, sal y pimienta, y podes agregar 2 hojitas de laurel para darle un sabor y aroma agradable. Dejar cocinando a fuego bajo por al menos 20 min con olla tapada (la clave es que está listo cuando adquiere un tono rojo ladrillo)</p>
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>8</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Tip de la salsa: Es importante hervirla a fuego lento para que se cocine el tomate sin quemarse, y con la olla tapada para que no se evapore. Si te quedó más espesa de lo que querés, podes agregarle un poco de agua y cocinar unos minitos más. Tip 2: si te gusta el guiso muy gustoso y salado, podes agregarle un caldito (a mi me gusta más sin el caldito).</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>9</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Poner agua a hervir en una olla y agregar una taza y media de arroz. Si tenés, podes agregar un poquito de sal gruesa para que quedé algo condimentada ya desde la cocción.</p>
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>10</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p><b>Lentejas:</b> después de mucho hervir, vas a ver el agua muy turbia. Es importante que la cueles y enjuagues, y chequees que estén tiernas. Si están tiernas, podes agregarle un poco de sal y agregarlas a la salsa. Sino, podes volver a agregarle agua y hervirlas un ratito más hasta que esten bien tiernas. Después colas y agregas a la salsa.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>11</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Una vez que está el arróz (15-18 min apróx.). Tenes que colar y enjuagar para quitar los restos de almidón que queda adherido. (Yo suelo tener una pava con agua caliente, y la uso para enjuagar el arroz). Luego agregar a la salsa.</p>
+            </div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                <div class="paso-receta">
+                    <h2>12</h2>
+                </div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                <p>Ya solo te queda servir el plato, y si gustas, agregarle un poquito de queso rallado. Y a disfrutar!!</p>
+            </div>
+        </div>
+    </menu>
+    <footer id="idFooter">
+    </footer>
+    <script src="js/footer.js"></script>
+</body>
+
+</html>

@@ -29,5 +29,5 @@ if (document.getElementById("idTablaPorJS"))
                 </table>
         `
         console.log(tab);
-        document.getElementById("idTablaPorJS").innerHTML;
+        document.getElementById("idTablaPorJS").innerHTML=tab;
 }
